@@ -1,0 +1,307 @@
+%!Adobe-FontList 1.24
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/mattheweven/Documents/__temp/__IRREGULAR HOURS/__process/_mini report/fonts/IH_report_02_fonts Folder/Document fonts/AdobeFnt24.lst
+FileLength:7303
+FileModTime:768505090
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ApfelGrotezk-Brukt
+FamilyName:Apfel Grotezk
+StyleName:Brukt
+MenuName:Apfel Grotezk Brukt
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Apfel Grotezk Brukt
+WritingScript:Roman
+OutlineFileName:/Users/mattheweven/Documents/__temp/__IRREGULAR HOURS/__process/_mini report/fonts/IH_report_02_fonts Folder/Document fonts/ApfelGrotezk-Brukt.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:55824
+FileModTime:768200570
+NameArray:0,Win,1,Apfel Grotezk Brukt
+NameArray:0,Win,16,Apfel Grotezk
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BodoniOrnamentsITCTT
+FamilyName:Bodoni Ornaments
+StyleName:Regular
+MenuName:Bodoni Ornaments
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Bodoni Ornaments
+WritingScript:Roman
+OutlineFileName:/Users/mattheweven/Documents/__temp/__IRREGULAR HOURS/__process/_mini report/fonts/IH_report_02_fonts Folder/Document fonts/Bodoni Ornaments.ttf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:73972
+FileModTime:760360990
+NameArray:0,Mac,4,Bodoni Ornaments
+NameArray:0,Win,1,Bodoni Ornaments
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HaasGrotTextRTrial-75Bold
+FamilyName:Haas Grot Text R Trial
+StyleName:75 Bold
+MenuName:HaasGrot Text R 75 Bd Trial
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:HaasGrotTextRTrial-75Bold
+WritingScript:Roman
+OutlineFileName:/Users/mattheweven/Documents/__temp/__IRREGULAR HOURS/__process/_mini report/fonts/IH_report_02_fonts Folder/Document fonts/NeueHaasGrotTextRound-75Bold-Trial.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:74140
+FileModTime:666829868
+NameArray:0,Mac,4,HaasGrotTextRTrial-75Bold
+NameArray:0,Win,1,HaasGrot Text R 75 Bd Trial
+NameArray:0,Win,16,Haas Grot Text R Trial
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:PPEditorialNew-Regular
+FamilyName:PP Editorial New
+StyleName:Regular
+MenuName:PP Editorial New
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:PP Editorial New Regular
+WritingScript:Roman
+OutlineFileName:/Users/mattheweven/Documents/__temp/__IRREGULAR HOURS/__process/_mini report/fonts/IH_report_02_fonts Folder/Document fonts/PPEditorialNew-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:58264
+FileModTime:640750082
+NameArray:0,Mac,4,PP Editorial New Regular
+NameArray:0,Win,1,PP Editorial New
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RubikGlitch-Regular
+FamilyName:Rubik Glitch
+StyleName:Regular
+MenuName:Rubik Glitch
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Rubik Glitch Regular
+WritingScript:Roman
+OutlineFileName:/Users/mattheweven/Documents/__temp/__IRREGULAR HOURS/__process/_mini report/fonts/IH_report_02_fonts Folder/Document fonts/RubikGlitch-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:407176
+FileModTime:747184280
+NameArray:0,Win,1,Rubik Glitch
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RubikWetPaint-Regular
+FamilyName:Rubik Wet Paint
+StyleName:Regular
+MenuName:Rubik Wet Paint
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Rubik Wet Paint Regular
+WritingScript:Roman
+OutlineFileName:/Users/mattheweven/Documents/__temp/__IRREGULAR HOURS/__process/_mini report/fonts/IH_report_02_fonts Folder/Document fonts/RubikWetPaint-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:442500
+FileModTime:747184280
+NameArray:0,Win,1,Rubik Wet Paint
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:VivaldiStd
+FamilyName:Vivaldi Std
+StyleName:Regular
+MenuName:Vivaldi Std
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Vivaldi Std
+WritingScript:Roman
+OutlineFileName:/Users/mattheweven/Documents/__temp/__IRREGULAR HOURS/__process/_mini report/fonts/IH_report_02_fonts Folder/Document fonts/Vivaldi Std Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:32952
+FileModTime:650189696
+NameArray:0,Mac,4,Vivaldi Std
+NameArray:0,Win,1,Vivaldi Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Courier
+FamilyName:Courier
+StyleName:Regular
+MenuName:Courier
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Courier
+WritingScript:Roman
+OutlineFileName:/Users/mattheweven/Documents/__temp/__IRREGULAR HOURS/__process/_mini report/fonts/IH_report_02_fonts Folder/Document fonts/Courier.ttc
+TTCOffset:40
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:1153400
+FileModTime:760360990
+NameArray:0,Mac,4,Courier
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Courier-Bold
+FamilyName:Courier
+StyleName:Bold
+MenuName:Courier
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Courier Bold
+WritingScript:Roman
+OutlineFileName:/Users/mattheweven/Documents/__temp/__IRREGULAR HOURS/__process/_mini report/fonts/IH_report_02_fonts Folder/Document fonts/Courier.ttc
+TTCOffset:372
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:1153400
+FileModTime:760360990
+NameArray:0,Mac,4,Courier Bold
+NameArray:0,Mac,4,Courier Gras
+NameArray:0,Mac,4,Courier Fett
+NameArray:0,Mac,4,Courier grassetto
+NameArray:0,Mac,4,Courier vet
+NameArray:0,Mac,4,Courier Fet
+NameArray:0,Mac,4,Courier Negrita
+NameArray:0,Mac,4,Courier Carregado
+NameArray:0,Mac,4,Courier Halvfet
+NameArray:0,Mac,4,Courier lihava
+NameArray:4,Mac,4,Courier‭ ‬أسود
+NameArray:4,Mac,4,Courier‭ ‬برجسته
+NameArray:5,Mac,4,Courier‭ ‬עבה
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Courier-BoldOblique
+FamilyName:Courier
+StyleName:Bold Oblique
+MenuName:Courier
+StyleBits:3
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:Courier Bold Oblique
+WritingScript:Roman
+OutlineFileName:/Users/mattheweven/Documents/__temp/__IRREGULAR HOURS/__process/_mini report/fonts/IH_report_02_fonts Folder/Document fonts/Courier.ttc
+TTCOffset:1036
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:1153400
+FileModTime:760360990
+NameArray:0,Mac,18,Courier Bold Oblique
+NameArray:0,Mac,4,Courier Bold Oblique
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Courier-Oblique
+FamilyName:Courier
+StyleName:Oblique
+MenuName:Courier
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Courier Oblique
+WritingScript:Roman
+OutlineFileName:/Users/mattheweven/Documents/__temp/__IRREGULAR HOURS/__process/_mini report/fonts/IH_report_02_fonts Folder/Document fonts/Courier.ttc
+TTCOffset:704
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:1153400
+FileModTime:760360990
+NameArray:0,Mac,18,Courier Oblique
+NameArray:0,Mac,4,Courier Oblique
+%EndFont
+
