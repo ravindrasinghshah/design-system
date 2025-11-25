@@ -4,7 +4,7 @@ export type PropsType = {
   children: React.ReactNode;
   as?: keyof typeof headingAs;
   className?: string;
-};
+} & React.HTMLAttributes<HTMLHeadingElement>;
 
 export const headingAs = {
   h1: "text-6xl font-bold",

@@ -1,4 +1,4 @@
-import Button from ".";
+import Button from "./Button";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
 const meta: Meta<typeof Button> = {
@@ -7,7 +7,7 @@ const meta: Meta<typeof Button> = {
   tags: ["autodocs"],
   argTypes: {
     onClick: { action: "clicked" },
-    type: {
+    variant: {
       control: { type: "select" },
       options: ["primary", "secondary"],
       description: "Button type variant",
@@ -36,7 +36,7 @@ export default meta;
 
 export const Interactive: StoryObj<typeof Button> = {
   args: {
-    type: "primary",
+    variant: "primary",
     size: "medium",
     disabled: false,
     children: "Click me",
@@ -57,10 +57,10 @@ export const AllVariants: StoryObj<typeof Button> = {
         <div className="flex flex-col gap-3">
           <h3 className="text-lg font-semibold">Types</h3>
           <div className="flex gap-3">
-            <Button type="primary" size="medium" onClick={handleClick}>
+            <Button variant="primary" size="medium" onClick={handleClick}>
               Primary
             </Button>
-            <Button type="secondary" size="medium" onClick={handleClick}>
+            <Button variant="secondary" size="medium" onClick={handleClick}>
               Secondary
             </Button>
           </div>
@@ -69,18 +69,18 @@ export const AllVariants: StoryObj<typeof Button> = {
         <div className="flex flex-col gap-3">
           <h3 className="text-lg font-semibold">Sizes</h3>
           <div className="flex gap-3 items-center">
-            <Button type="primary" size="small" onClick={handleClick}>
+            <Button variant="primary" size="small" onClick={handleClick}>
               Small
             </Button>
-            <Button type="primary" size="medium" onClick={handleClick}>
+            <Button variant="primary" size="medium" onClick={handleClick}>
               Medium
             </Button>
-            <Button type="primary" size="large" onClick={handleClick}>
+            <Button variant="primary" size="large" onClick={handleClick}>
               Large
             </Button>
           </div>
           <div className="w-full max-w-md">
-            <Button type="primary" size="full" onClick={handleClick}>
+            <Button variant="primary" size="full" onClick={handleClick}>
               Full Width
             </Button>
           </div>
@@ -90,7 +90,7 @@ export const AllVariants: StoryObj<typeof Button> = {
           <h3 className="text-lg font-semibold">States</h3>
           <div className="flex gap-3">
             <Button
-              type="primary"
+              variant="primary"
               size="medium"
               onClick={handleClick}
               disabled={false}
@@ -98,7 +98,7 @@ export const AllVariants: StoryObj<typeof Button> = {
               Enabled
             </Button>
             <Button
-              type="primary"
+              variant="primary"
               size="medium"
               onClick={handleClick}
               disabled={true}
@@ -114,17 +114,17 @@ export const AllVariants: StoryObj<typeof Button> = {
             <div className="flex flex-col gap-2">
               <p className="text-sm text-gray-600">Primary Type</p>
               <div className="flex gap-2 items-center flex-wrap">
-                <Button type="primary" size="small" onClick={handleClick}>
+                <Button variant="primary" size="small" onClick={handleClick}>
                   Primary Small
                 </Button>
-                <Button type="primary" size="medium" onClick={handleClick}>
+                <Button variant="primary" size="medium" onClick={handleClick}>
                   Primary Medium
                 </Button>
-                <Button type="primary" size="large" onClick={handleClick}>
+                <Button variant="primary" size="large" onClick={handleClick}>
                   Primary Large
                 </Button>
                 <Button
-                  type="primary"
+                  variant="primary"
                   size="medium"
                   onClick={handleClick}
                   disabled
@@ -136,17 +136,17 @@ export const AllVariants: StoryObj<typeof Button> = {
             <div className="flex flex-col gap-2">
               <p className="text-sm text-gray-600">Secondary Type</p>
               <div className="flex gap-2 items-center flex-wrap">
-                <Button type="secondary" size="small" onClick={handleClick}>
+                <Button variant="secondary" size="small" onClick={handleClick}>
                   Secondary Small
                 </Button>
-                <Button type="secondary" size="medium" onClick={handleClick}>
+                <Button variant="secondary" size="medium" onClick={handleClick}>
                   Secondary Medium
                 </Button>
-                <Button type="secondary" size="large" onClick={handleClick}>
+                <Button variant="secondary" size="large" onClick={handleClick}>
                   Secondary Large
                 </Button>
                 <Button
-                  type="secondary"
+                  variant="secondary"
                   size="medium"
                   onClick={handleClick}
                   disabled

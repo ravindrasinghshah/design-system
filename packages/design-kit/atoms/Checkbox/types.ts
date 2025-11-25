@@ -1,6 +1,9 @@
-export type PropsType = {
-  disabled?: boolean;
+export type PropsType = Omit<
+  React.ComponentPropsWithoutRef<"input">,
+  "type" | "onChange"
+> & {
   checked?: boolean;
-  onChange?: (checked: boolean) => void;
+  disabled?: boolean;
   className?: string;
+  onChange?: (checked: boolean) => void;
 };

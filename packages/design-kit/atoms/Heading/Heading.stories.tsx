@@ -1,5 +1,5 @@
 // heading component stories
-import Heading from ".";
+import Heading from "./Heading";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
 const meta: Meta<typeof Heading> = {

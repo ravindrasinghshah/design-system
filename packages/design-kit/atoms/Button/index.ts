@@ -1,1 +1,2 @@
-export { default } from "./index.tsx";
+export { default } from "./Button";
+export * from "./Button"; // optional for props

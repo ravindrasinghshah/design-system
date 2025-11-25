@@ -1,5 +1,5 @@
 // checkbox component stories
-import Checkbox from ".";
+import Checkbox from "./Checkbox";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { useState } from "react";
 

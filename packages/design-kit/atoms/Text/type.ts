@@ -1,7 +1,5 @@
-export type PropsType = {
-  children: React.ReactNode;
+export type PropsType = React.ComponentPropsWithoutRef<"span"> & {
   size?: keyof typeof textSizes;
-  className?: string;
 };
 
 export const textSizes = {

@@ -1,9 +1,11 @@
 import { ReactNode, MouseEvent } from "react";
-export type PropsType = {
-  type?: "primary" | "secondary";
+export type PropsType = Omit<
+  React.ComponentPropsWithoutRef<"button">,
+  "type" | "size"
+> & {
+  variant?: "primary" | "secondary";
   size?: "small" | "medium" | "large" | "full";
-  disabled?: boolean;
   children: ReactNode;
-  onClick: (event: MouseEvent<HTMLButtonElement>) => void;
   className?: string;
+  onClick?: (event: MouseEvent<HTMLButtonElement>) => void;
 };
