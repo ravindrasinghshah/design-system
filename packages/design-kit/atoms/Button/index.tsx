@@ -1,9 +1,6 @@
 import { PropsType } from "./types";
-
 /**
- * Button component using design tokens via Tailwind classes
- *
- * Uses:
+ * Button component using design tokens via Tailwind classes:
  * - Brand colors: bg-brand-primary, text-brand-secondary (from tokens.color.brand)
  * - Design token spacing: p-2, p-4, p-6 (from tokens.spacing)
  * - Design token border radius: rounded-lg (from tokens.borderRadius)

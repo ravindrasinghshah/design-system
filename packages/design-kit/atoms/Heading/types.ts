@@ -2,11 +2,11 @@ import React from "react";
 
 export type PropsType = {
   children: React.ReactNode;
-  level?: keyof typeof headingLevels;
+  as?: keyof typeof headingAs;
   className?: string;
 };
 
-export const headingLevels = {
+export const headingAs = {
   h1: "text-6xl font-bold",
   h2: "text-5xl font-semibold",
   h3: "text-4xl font-semibold",

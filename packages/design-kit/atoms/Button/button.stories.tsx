@@ -45,6 +45,11 @@ export const Interactive: StoryObj<typeof Button> = {
 };
 
 export const AllVariants: StoryObj<typeof Button> = {
+  parameters: {
+    controls: {
+      disable: true,
+    },
+  },
   render: (args) => {
     const handleClick = args?.onClick || (() => {});
     return (
@@ -52,59 +57,35 @@ export const AllVariants: StoryObj<typeof Button> = {
         <div className="flex flex-col gap-3">
           <h3 className="text-lg font-semibold">Types</h3>
           <div className="flex gap-3">
-            <Button
-              type="primary"
-              size="medium"
-              onClick={handleClick}
-            >
+            <Button type="primary" size="medium" onClick={handleClick}>
               Primary
             </Button>
-            <Button
-              type="secondary"
-              size="medium"
-              onClick={handleClick}
-            >
+            <Button type="secondary" size="medium" onClick={handleClick}>
               Secondary
             </Button>
           </div>
         </div>
-        
+
         <div className="flex flex-col gap-3">
           <h3 className="text-lg font-semibold">Sizes</h3>
           <div className="flex gap-3 items-center">
-            <Button
-              type="primary"
-              size="small"
-              onClick={handleClick}
-            >
+            <Button type="primary" size="small" onClick={handleClick}>
               Small
             </Button>
-            <Button
-              type="primary"
-              size="medium"
-              onClick={handleClick}
-            >
+            <Button type="primary" size="medium" onClick={handleClick}>
               Medium
             </Button>
-            <Button
-              type="primary"
-              size="large"
-              onClick={handleClick}
-            >
+            <Button type="primary" size="large" onClick={handleClick}>
               Large
             </Button>
           </div>
           <div className="w-full max-w-md">
-            <Button
-              type="primary"
-              size="full"
-              onClick={handleClick}
-            >
+            <Button type="primary" size="full" onClick={handleClick}>
               Full Width
             </Button>
           </div>
         </div>
-        
+
         <div className="flex flex-col gap-3">
           <h3 className="text-lg font-semibold">States</h3>
           <div className="flex gap-3">
@@ -126,7 +107,7 @@ export const AllVariants: StoryObj<typeof Button> = {
             </Button>
           </div>
         </div>
-        
+
         <div className="flex flex-col gap-3">
           <h3 className="text-lg font-semibold">All Combinations</h3>
           <div className="flex flex-col gap-4">
@@ -142,7 +123,12 @@ export const AllVariants: StoryObj<typeof Button> = {
                 <Button type="primary" size="large" onClick={handleClick}>
                   Primary Large
                 </Button>
-                <Button type="primary" size="medium" onClick={handleClick} disabled>
+                <Button
+                  type="primary"
+                  size="medium"
+                  onClick={handleClick}
+                  disabled
+                >
                   Primary Disabled
                 </Button>
               </div>
@@ -159,7 +145,12 @@ export const AllVariants: StoryObj<typeof Button> = {
                 <Button type="secondary" size="large" onClick={handleClick}>
                   Secondary Large
                 </Button>
-                <Button type="secondary" size="medium" onClick={handleClick} disabled>
+                <Button
+                  type="secondary"
+                  size="medium"
+                  onClick={handleClick}
+                  disabled
+                >
                   Secondary Disabled
                 </Button>
               </div>
